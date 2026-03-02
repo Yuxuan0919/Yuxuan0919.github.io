@@ -232,26 +232,27 @@ a {
   margin: 0 6px;
 }
 
-/* Google Scholar button */
-.scholar-link {
+
+
+.github-link {
   display: inline-block;
   margin: 10px auto;
-  padding: 6px 12px;
-  font-size: 14px;
+  padding: 6px 12px; /* 调整按钮大小为更小尺寸 */
+  font-size: 14px; /* 较小字体 */
   font-weight: bold;
-  color: #fff;
-  background-color: #1772d0; /* scholar 用蓝色 */
+  color: #fff; /* 白色文字 */
+  background-color: #333; /* 深灰色背景 */
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.scholar-link:hover {
-  background-color: #145aa3;
-  transform: translateY(-2px);
+.github-link:hover {
+  background-color: #555; /* 鼠标悬停时为更浅的灰色 */
+  transform: translateY(-2px); /* 鼠标悬停时轻微上移 */
 }
 
-.scholar-link:active {
-  background-color: #1f82e8;
-  transform: translateY(0);
+.github-link:active {
+  background-color: #777; /* 点击时更浅灰色 */
+  transform: translateY(0); /* 点击时复位 */
 }
