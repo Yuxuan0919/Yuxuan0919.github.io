@@ -204,3 +204,54 @@ a {
 }
 
 
+
+
+
+
+
+
+
+
+
+/* Biography honors list */
+.honor-list {
+  list-style: disc inside;
+  margin: 12px 0 0;
+  padding-left: 0;
+}
+
+.honor-list li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+/* buttons row */
+.profile-links a {
+  margin: 0 6px;
+}
+
+/* Google Scholar button */
+.scholar-link {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1772d0; /* scholar 用蓝色 */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.scholar-link:hover {
+  background-color: #145aa3;
+  transform: translateY(-2px);
+}
+
+.scholar-link:active {
+  background-color: #1f82e8;
+  transform: translateY(0);
+}
