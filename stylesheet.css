@@ -256,3 +256,33 @@ a {
   background-color: #777; /* 点击时更浅灰色 */
   transform: translateY(0); /* 点击时复位 */
 }
+
+
+
+
+
+
+.profile-name-inline {
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+.profile-name-inline .name-en {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 0.3px;
+}
+
+.profile-name-inline .divider {
+  margin: 0 10px;
+  color: #999;
+  font-size: 24px;
+}
+
+.profile-name-inline .name-cn {
+  font-size: 24px;
+  font-weight: 500;
+  color: #444;
+}
